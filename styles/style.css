@@ -11,13 +11,6 @@
   color: inherit;
 }
 
-.accent-color {
-  color: #2f80ed;
-}
-
-html {
-  box-sizing: border-box;
-}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -79,6 +72,7 @@ html {
 .header__link {
   text-decoration: none;
   cursor: pointer;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -120,6 +114,7 @@ html {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -127,6 +122,10 @@ html {
   font-size: 24px;
   line-height: 34px;
   font-weight: 400;
+}
+
+.two-columns__paragraph {
+  margin: 0;
 }
 
 .two-columns__paragraph:not(:last-child) {
@@ -138,24 +137,26 @@ html {
 }
 
 .digits {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.section__title {
+.section-title {
   margin: 0;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
+  z-index: 1;
 }
 
-.section__subtitle {
+.section-subtitle {
   margin: 20px 0 0 0;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
+  z-index: 1;
 }
 
 .table {
@@ -188,8 +189,7 @@ html {
 }
 
 .feynman {
-  max-height: 890px;
-  height: 100vh;
+  min-height: 890px;
   padding-top: 100px;
   position: relative;
   display: flex;
@@ -225,6 +225,7 @@ html {
   font-weight: 400;
   line-height: 51px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -239,10 +240,15 @@ html {
 }
 
 .kaufman__triangle {
-  max-width: 877px;
+  width: 877px;
+  height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .section__title_theme_dark {
@@ -264,19 +270,23 @@ html {
 .footer {
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 0 40px 0;
+  display: flex;
+  min-height: 350px;
 }
 
 .footer__columns {
   margin: 0 auto;
+  padding: 60px 0 40px 0;
   width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column_content_copyrighy {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -304,6 +314,8 @@ html {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  text-decoration: none;
+  color: inherit;
 }
 
 .footer__column-link:last-child {
