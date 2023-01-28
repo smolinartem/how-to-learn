@@ -75,3 +75,29 @@
 @import url("./blocks/khan/__book-container/khan__book-container.css");
 @import url("./blocks/khan/__book-pic/khan__book-pic.css");
 @import url("./blocks/khan/__buy-link/khan__buy-link.css");
+
+.resources {
+  padding-top: 100px;
+  padding-bottom: 217px;
+}
+.resources__logo-zone {
+  margin: 0 auto;
+  margin-top: 80px;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.resources__link {
+  width: 270px;
+  max-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resources__logo path {
+  transition: fill 0.4s linear;
+}
+.resources__logo:hover path {
+  fill: #1f1f1f;
+}
