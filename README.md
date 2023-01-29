@@ -14,7 +14,7 @@
 
 ![index.html](./images/vscode.jpg)
 
-TODO:
+**TODO:**
 
 1. Добавить локально шрифт: <https://fonts.google.com/specimen/Play>
 2. Между блоками resources и footer добавить форму обратной связи.
