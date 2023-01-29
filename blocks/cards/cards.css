@@ -1,4 +1,6 @@
 .cards {
+  list-style: none;
+  padding: 0;
   max-width: 920px;
   display: flex;
   margin: 60px auto 0;

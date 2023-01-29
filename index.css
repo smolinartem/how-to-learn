@@ -4,7 +4,6 @@
 
 /* Общие стили */
 @import url("./blocks/page/page.css");
-@import url("./blocks/list-reset/list-reset.css");
 @import url("./blocks/hover/hover.css");
 
 @import url("./blocks/header/header.css");
@@ -51,6 +50,7 @@
 @import url("./blocks/footer/__column/_content/footer__column_content_copyright.css");
 @import url("./blocks/footer/__author/footer__author.css");
 @import url("./blocks/footer/__column-heading/footer__column-heading.css");
+@import url("./blocks/footer/__column-links/footer-column-links.css");
 @import url("./blocks/footer/__column-link/footer__column-link.css");
 @import url("./blocks/footer/__social-icon/footer__social-icon.css");
 
