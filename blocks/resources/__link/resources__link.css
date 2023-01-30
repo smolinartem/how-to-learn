@@ -1,7 +1,9 @@
 .resources__link {
-  width: 270px;
-  max-height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s ease-in;
+}
+.resources__link:hover {
+  transform: translate(0, -8px);
 }

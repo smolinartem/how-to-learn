@@ -3,7 +3,7 @@
   bottom: 0;
   right: 0;
   max-width: 765px;
-  height: auto;
+  max-height: 608px;
   object-fit: cover;
   z-index: 2;
 }
