@@ -16,6 +16,6 @@
 
 **TODO:**
 
-1. Добавить локально шрифт: <https://fonts.google.com/specimen/Play>
+1. Добавить локально шрифт: <https://fonts.google.com/specimen/Montserrat>
 2. Между блоками resources и footer добавить форму обратной связи.
 3. Дописать стили для адаптивность сайта под разные устройства.

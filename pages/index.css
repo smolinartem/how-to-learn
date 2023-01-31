@@ -1,7 +1,8 @@
 @import url("../vendor/normalize.css");
 
 /* Общие стили */
-@import url("../blocks/page/page.css");
+@import url("../blocks/root/fonts.css");
+@import url("../blocks/root/page.css");
 @import url("../blocks/hover/hover.css");
 @import url("../blocks/rotation/rotation.css");
 
